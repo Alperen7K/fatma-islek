@@ -14,7 +14,7 @@ function App() {
   <div className="bg-bordo m-0 p-0 h-screen">
    <div className="w-full min-h-[85vh]  px-5  text-antrasit flex flex-col items-center justify-around ">
     <div
-     className="w-[35vh] h-[45vh] bg-center bg-cover bg-no-repeat rounded-xl shadow-xl  border-[6px] border-white"
+     className="w-[40vh] h-[50vh] bg-center bg-cover bg-no-repeat rounded-xl shadow-xl  border-[6px] border-white"
      style={{ backgroundImage: `url(${fatma})` }}
     />
     <label className="text-white font-extrabold text-[35px]">Fatma İŞLEK</label>
@@ -23,13 +23,14 @@ function App() {
       className="flex items-center w-fit gap-4 cursor-pointer text-[26px] font-bold text-white bg-bordo rounded-2xl p-1 px-2 hover:bg-antrasit duration-300 hover:scale-[1.04] "
       href="tel:+90 537 959 8344"
      >
-      <img src={phone} className={" w-[35px] "} />0 537 959 8344
+      <img src={phone} className={" w-[35px] "} />
+      537 959 8344
      </a>
      <a
-      className="flex items-center gap-4 cursor-pointer text-[26px] font-bold text-white bg-bordo rounded-2xl p-1 px-2 hover:bg-antrasit duration-300 hover:scale-[1.04] "
+      className="flex items-center gap-4 cursor-pointer text-[20px] font-bold text-white bg-bordo rounded-2xl p-1 px-2 hover:bg-antrasit duration-300 hover:scale-[1.04] "
       href="mailto:fatma.islek@narfon.com.tr"
      >
-      <img src={mail} className={" w-[35px] hidden"} />
+      <img src={mail} className={" w-[35px] "} />
       fatma.islek@narfon.com.tr
      </a>
     </div>
